@@ -1,6 +1,6 @@
 <?php
 $cedula = $_GET['cedula'];
-$nombres = $_GET['nombres'];
-$apellidos = $_GET['apellidos'];
+$nombres = $_GET['nombre'];
+$apellido = $_GET['apellido'];
 echo $cedula. '  '.$nombres. '  ' .$apellidos;
 ?>
